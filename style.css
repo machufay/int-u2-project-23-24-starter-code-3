@@ -1,6 +1,51 @@
-/* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
-    color: white;
-    padding: 128px 16px;
+    background-color: rgb(197, 198, 207);
+    padding: 128px 50px;
+}
+
+.title { 
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.title:hover {
+    color: #010250;
+    text-shadow: 2px 2px 4px #ffffff;
+    transform: scale(1.1);
+    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* The code below adds a white background-color and black text color for the body of the page. */
+body {
+    color: rgb(37, 37, 41);
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* The code below adds a black background-color and white text color for each section heading. */
+.header1 {
+    color:white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(32, 18, 109);
+    font-size: 50px;
+    
+}
+
+.header2 {
+    color:white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(32, 18, 109);
+    font-size: 50px;
+}
+
+.header3 {
+    color:white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(32, 18, 109);
+    font-size: 50px;
 }
