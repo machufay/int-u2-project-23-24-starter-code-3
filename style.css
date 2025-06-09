@@ -45,8 +45,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-color: aliceblue;
-    border-width: 40px;
+
     clip-path: ellipse(100% 100% at 50% 0%);
 }
 
@@ -94,6 +93,16 @@ header {
     transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
+.images {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+}
+img {
+    padding: 1vw;
+    max-height: 50vh;
+    width: 30vw;
+}
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
     background-color: rgb(124, 150, 180);
@@ -104,13 +113,29 @@ body {
 /* The code below adds a black background-color and white text color for each section heading. */
 h2 {
     color:rgb(255, 255, 255);
-    margin-top: 1000px;
+    padding: 1rem;
+    margin-bottom: 10vh;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(44, 49, 71);
-    font-size: 4rem;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 2000;
+    font-size: 1.5rem;
+    background-color: rgb(44, 49, 71);  
 }
+
+p {
+    color: aliceblue;
+    text-align: left;
+    text-indent: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    width: 60vw;
+    padding-bottom: 10vh;
+}
+
+
+
 /* this is for if you want to change individual headers
 .header1 {
     color:white;
