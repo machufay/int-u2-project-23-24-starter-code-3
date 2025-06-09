@@ -41,3 +41,4 @@ Add HTML elements to your page, including but not limited to:
 Check that the text is readable:
 - Color contrast ratio of 4-4.5:1
 - All images have alt attributes
+
